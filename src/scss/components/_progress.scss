@@ -1,0 +1,66 @@
+.irs-bar {
+  background: rgba(204,177,241,1)!important;
+  background: -moz-linear-gradient(left, rgba(204,177,241,1) 0%, rgba(67,89,147,1) 100%)!important;
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(204,177,241,1)), color-stop(100%, rgba(67,89,147,1))!important);
+  background: -webkit-linear-gradient(left, rgba(204,177,241,1) 0%, rgba(67,89,147,1) 100%)!important;
+  background: -o-linear-gradient(left, rgba(204,177,241,1) 0%, rgba(67,89,147,1) 100%)!important;
+  background: -ms-linear-gradient(left, rgba(204,177,241,1) 0%, rgba(67,89,147,1) 100%)!important;
+  background: linear-gradient(to right, rgba(204,177,241,1) 0%, rgba(67,89,147,1) 100%)!important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ccb1f1', endColorstr='#435993', GradientType=1 )!important;
+  height: 14px!important;
+}
+.irs-line-mid, .irs-line-left, .irs-line-right, .irs-line {
+  background: #e8e8e8!important;
+  height: 14px!important;
+}
+.irs-bar-edge {
+  background: rgba(204,177,241,1)!important;
+  height: 14px!important;
+  width: 12px!important;
+}
+#range_01 {display: none;}
+.irs-slider {
+  background: url(../img/marker.png) no-repeat 0 0!important;
+  height: 26px!important; width: 23px!important;
+  top: 40px!important;
+}
+.irs-from, .irs-to, .irs-single, .irs-min, .irs-max {
+  display: none!important;
+}
+.irs-grid-pol.small, .irs-grid-text {
+  display: none!important;
+}
+.irs-grid-pol {
+  background: #fff!important;
+  height: 14px!important;
+  top: -11px!important;
+  z-index: 100;
+  &:before {
+    position: absolute;
+    content: '';
+    width: 1px;height: 15px;
+    border:1px dotted #e8e8e8;
+    top: -10px;left: 0;
+  }
+}
+.irs-line:before {
+  content: '';
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  height: 100%;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 14px solid #fff;
+  border-right: 768px solid transparent;
+}
+.irs-with-grid .irs-grid {
+  width: 100%!important;
+  left: 0!important;
+}
+
+.irs-grid-pol:not(.small):nth-child(19) {
+  display: none;
+}

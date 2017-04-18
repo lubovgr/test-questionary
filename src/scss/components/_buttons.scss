@@ -1,0 +1,22 @@
+.btn {
+  display: inline-block;
+  padding: 13px;
+  margin-bottom: 74px;
+  font-size: 16px;
+  min-width: 115px;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+  background-color: #435993;
+  border: none;
+  border-radius: 10px;
+  vertical-align: middle;
+  cursor: pointer;
+  @include to768 {
+  padding: 8px 8px;
+  }
+  span {
+    display: inline-block;
+    line-height: 24px;
+  }
+}

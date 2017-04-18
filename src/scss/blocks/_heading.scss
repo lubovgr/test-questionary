@@ -1,0 +1,14 @@
+.heading {
+  padding: 130px 0 74px;
+  font-size: 70px;
+  font-weight: 100;
+  text-align: center;
+  @include to768 {
+    padding: 70px 0;
+    font-size: 55px;
+  }
+  @include to480 {
+    padding: 45px 0;
+    font-size: 45px;
+  }
+}

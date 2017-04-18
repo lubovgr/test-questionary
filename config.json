@@ -1,0 +1,8 @@
+{
+	"dist": "./dist/",
+	"scss": "./src/scss/**/*.scss",
+	"js": "./src/js/**/*.js",
+	"img": "./src/img/**",
+	"fonts": "./src/fonts/**",
+	"jade": ["./src/jade/**/*.jade", "!./src/jade/templates/**", "!./src/jade/partials/**", "!./src/jade/layouts/**"]
+}
